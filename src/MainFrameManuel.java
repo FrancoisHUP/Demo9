@@ -4,11 +4,11 @@ import javax.swing.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
-public class MainFrame1 extends JFrame implements ActionListener {
+public class MainFrameManuel extends JFrame implements ActionListener {
 
     private JButton button;
 
-    public MainFrame1() {
+    public MainFrameManuel() {
         MyFrame.buildCustomFrame(this);
         button = MyFrame.createSmallSizeButton("button !", 100, 50);
         JLabel label = MyFrame.createStandartLabel("label :", 100, 10);
@@ -31,7 +31,7 @@ public class MainFrame1 extends JFrame implements ActionListener {
     }
 
     public static void main(String[] args) {
-        JFrame myFrame = new MainFrame1();
+        JFrame myFrame = new MainFrameManuel();
 
     }
 }

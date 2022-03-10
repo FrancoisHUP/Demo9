@@ -2,7 +2,7 @@ import javax.swing.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
-public class MainFrame extends JFrame {
+public class MainFrameIntellij extends JFrame {
     private JPanel mainPanel;
     private JPanel myPanel;
     private JTextField textField;
@@ -10,7 +10,7 @@ public class MainFrame extends JFrame {
     private JTextPane textPane1;
     private JLabel label;
 
-    public MainFrame(String title) {
+    public MainFrameIntellij(String title) {
         super(title);
         this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         this.setContentPane(mainPanel);
@@ -30,7 +30,7 @@ public class MainFrame extends JFrame {
     }
 
     public static void main(String[] args) {
-        JFrame jFrame = new MainFrame("Demo9");
+        JFrame jFrame = new MainFrameIntellij("Demo9");
     }
 
 

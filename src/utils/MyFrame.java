@@ -4,10 +4,9 @@ import javax.swing.*;
 import java.awt.*;
 /**
  * Classe regroupant des utilitaires pour l'affichage de l'interface graphique.
- * Ce fichier sert seulement de code de depart pour tester lalibrairie swing de java.
  */
-
-// Ne pas copier coller entierement dans changemenr dans votre projet (pour ne pas etre accuser de plagia).
+Ne pas copier coller entierement, sans changement, le fichier dans votre projet (pour ne pas etre accuse de plagia).
+        Ce fichier sert seulement de code de depart pour tester la librairie swing de java. merci :)
 public class MyFrame {
 
         /**

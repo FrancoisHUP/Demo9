@@ -2,6 +2,8 @@ package utils;
 
 import java.awt.*;
 
+Ne pas copier coller entierement, sans changement, le fichier dans votre projet (pour ne pas etre accuse de plagia).
+        Ce fichier sert seulement de code de depart pour tester la librairie swing de java. merci :)
 public class Style {
 
     public static final Font LABEL_FONT = new Font("Dialog", Font.BOLD, 15);
